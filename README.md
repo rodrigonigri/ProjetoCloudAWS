@@ -40,6 +40,18 @@ access_key = "sua acces_key"
 secret_key = "sua secret_key"
 ```
 
-- Após isso, basta rodar o arquivo main.py, e seguir as instruções do terminal.
+- Para executar os arquivos terraform genéricos, é necessário rodar os seguintes comandos no terminal:
+
+```
+$ terrafomr init
+$ terraform plan
+$ terraform apply
+```
+
+- Porém esses comandos já fazem parte do arquivo main.py, então basta rodar o comando abaixo e seguir as instruções do terminal:
+
+```
+$ python main.py
+```
 
 - **Se divirta! :D**
