@@ -33,7 +33,7 @@ O terraform é dividido em 3 principais arquivos, sendo eles:
 
 - Será necessário baixar todas as dependências do projeto presentes no arquivo `requirements.txt`.
 
-- **ETAPA MUITO IMPORTANTE!!!** Será necessário criar um arquivo na pasta .gitignore, chamado `secret.tfvars`, e dentro dele, colocar as seguintes variáveis:
+- **ETAPA MUITO IMPORTANTE!!!** Será necessário prencher o arquivo `secret.tfvars` **(NUNCA PUBLIQUE OU COMPARTILHE ESSAS CHAVES!!!):** 
 
 ``` terraform
 access_key = "sua acces_key"
